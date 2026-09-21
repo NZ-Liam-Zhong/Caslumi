@@ -11,11 +11,16 @@ window.CASLUMI = {
   tagline: "Aluminum Manufacturing Network",
 
   /* ---- contact -----------------------------------------------------------
-     TODO: replace the placeholders below once the U.S. entity is registered.
-     Placeholders render on the site as "—" instead of a fake value.
+     Changing `email` here updates the header, the footer, the contact page
+     fallback and the RFQ mailto fallback in one go.
+
+     TODO: once the company domain and the U.S. entity are live, switch this to
+     a business address on your own domain (e.g. sales@caslumi.com). U.S. buyers
+     read a personal or academic address as a smaller operation than you are.
+     Empty fields below are omitted from the site rather than faked.
      ---------------------------------------------------------------------- */
-  email: "sales@caslumi.com",
-  emailLabel: "sales@caslumi.com",
+  email: "jh5151@columbia.edu",
+  emailLabel: "jh5151@columbia.edu",
   phone: "",            // e.g. "+1 (704) 555-0142"
   whatsapp: "",         // digits only, e.g. "8613800000000"
   wechat: "",           // WeChat ID
