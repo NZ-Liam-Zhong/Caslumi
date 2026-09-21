@@ -15,8 +15,8 @@ window.CASLUMI = {
      fallback and the RFQ mailto fallback in one go.
 
      TODO: once the company domain and the U.S. entity are live, switch this to
-     a business address on your own domain (e.g. sales@caslumi.com). U.S. buyers
-     read a personal or academic address as a smaller operation than you are.
+     a business address on your own domain. U.S. buyers tend to read a personal
+     or academic address as a smaller operation than you actually are.
      Empty fields below are omitted from the site rather than faked.
      ---------------------------------------------------------------------- */
   email: "jh5151@columbia.edu",
