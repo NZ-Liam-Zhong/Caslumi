@@ -85,7 +85,8 @@
             dropdown([["products.html", "All Products", "Full range overview"]].concat(PRODUCTS)) + '</div>' +
           '<div class="nav-item"><a class="nav-link" href="manufacturing.html">Capabilities' + CARET + '</a>' +
             dropdown(CAPABILITIES) + '</div>' +
-          '<a class="nav-link" href="supply-network.html">China + Cambodia</a>' +
+          '<a class="nav-link" href="quality.html">Quality</a>' +
+          '<a class="nav-link" href="supply-network.html">Network</a>' +
           '<a class="nav-link" href="industries.html">Industries</a>' +
           '<div class="nav-item"><a class="nav-link" href="about.html">Company' + CARET + '</a>' +
             dropdown(COMPANY) + '</div>' +
@@ -98,7 +99,7 @@
         '<a href="products.html">Products</a>' +
         PRODUCTS.map(function (p) { return '<a class="drawer-sub" href="' + p[0] + '">' + esc(p[1]) + '</a>'; }).join("") +
         CAPABILITIES.map(function (p) { return '<a href="' + p[0] + '">' + esc(p[1]) + '</a>'; }).join("") +
-        '<a href="supply-network.html">China + Cambodia Network</a>' +
+        '<a href="supply-network.html">Manufacturing Network</a>' +
         '<a href="industries.html">Industries</a>' +
         COMPANY.map(function (p) { return '<a href="' + p[0] + '">' + esc(p[1]) + '</a>'; }).join("") +
         '<a class="btn btn--primary btn--block" href="rfq.html">Request a Quote</a>' +
@@ -156,7 +157,7 @@
       '<div class="wrap">' +
         '<div class="footer-grid">' +
           '<div>' + logo() +
-            '<p class="footer-about">Aluminum outdoor furniture components, fire pit structures and custom manufacturing — produced across seven partner plants in China and finished-goods capacity in Cambodia, for buyers in the United States.</p>' +
+            '<p class="footer-about">Custom aluminum components and OEM manufacturing for outdoor living products — from custom extrusion and machined components to welded frames and finished outdoor furniture, produced across an integrated manufacturing network in Guangdong and Cambodia.</p>' +
             '<a class="btn btn--primary btn--sm mt-24" href="rfq.html">Send Your Drawing</a>' +
           '</div>' +
           '<div class="footer-col"><h4>Products</h4><ul>' +
@@ -167,7 +168,7 @@
             '<li><a href="manufacturing.html">Manufacturing</a></li>' +
             '<li><a href="custom-manufacturing.html">OEM &amp; ODM</a></li>' +
             '<li><a href="quality.html">Quality &amp; Inspection</a></li>' +
-            '<li><a href="supply-network.html">China + Cambodia</a></li>' +
+            '<li><a href="supply-network.html">Manufacturing network</a></li>' +
             '<li><a href="industries.html">Industries served</a></li>' +
             '<li><a href="projects.html">Case studies</a></li>' +
           '</ul></div>' +

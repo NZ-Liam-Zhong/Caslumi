@@ -664,6 +664,68 @@ body.menu-open { overflow: hidden; }
   letter-spacing: 0.02em;
 }
 
+/* value chain: billet -> export */
+.chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 0;
+}
+.chain li { display: inline-flex; align-items: center; }
+.chain b {
+  display: block;
+  padding: 11px 17px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+  background: #fff;
+  white-space: nowrap;
+}
+.chain li:first-child b {
+  border-style: dashed;
+  color: var(--steel);
+  background: transparent;
+}
+.chain li:not(:last-child)::after {
+  content: "";
+  flex: none;
+  width: 22px;
+  height: 10px;
+  margin: 0 6px;
+  opacity: .5;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 10' fill='none' stroke='%235a666e' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0.5 5h20M16.5 1.5L20.5 5l-4 3.5'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.section--dark .chain b { border-color: var(--line-dark); background: transparent; color: #fff; }
+.section--dark .chain li:first-child b { color: var(--mist); }
+.section--dark .chain li:not(:last-child)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 10' fill='none' stroke='%2393a0a8' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0.5 5h20M16.5 1.5L20.5 5l-4 3.5'/%3E%3C/svg%3E");
+}
+
+/* lead-time highlight */
+.speed {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  background: var(--line-dark);
+  border: 1px solid var(--line-dark);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.speed > div { background: var(--ink); padding: 26px 24px; }
+.speed b {
+  display: block;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.7rem, 2.8vw, 2.3rem);
+  color: var(--ember-lit);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.speed span { display: block; font-size: 0.88rem; color: #fff; font-weight: 500; margin-bottom: 4px; }
+.speed small { font-size: 0.8rem; color: var(--mist); }
+
 /* stat strip */
 .stats {
   display: grid;
