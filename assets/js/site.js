@@ -16,13 +16,14 @@
     ["product-outdoor-kitchen.html", "Outdoor Kitchen & Grill Islands", "Modular cabinetry structures"],
     ["product-hdpe-outdoor-furniture.html", "HDPE Outdoor Furniture", "Slats, seating, mixed-material"],
     ["product-custom-aluminum-profiles.html", "Custom Aluminum Profiles", "Die development to finished bar"],
-    ["product-oem-odm.html", "OEM / ODM Products", "Build to your drawing or sample"]
+    ["product-oem-odm.html", "OEM / ODM Products", "Build to your drawing or sample"],
+    ["product-directory.html", "Full Product Directory", "Every item we make, listed"]
   ];
 
   var CAPABILITIES = [
     ["manufacturing.html", "Manufacturing Capabilities", "Extrusion to packing, in one network"],
     ["custom-manufacturing.html", "Custom Manufacturing / OEM", "Drawing → mold → mass production"],
-    ["quality.html", "Quality & Inspection", "Seven-stage inspection flow"]
+    ["quality.html", "Quality & Inspection", "Eight-stage inspection flow"]
   ];
 
   var COMPANY = [
@@ -162,7 +163,7 @@
           '</div>' +
           '<div class="footer-col"><h4>Products</h4><ul>' +
             PRODUCTS.slice(0, 6).map(function (p) { return '<li><a href="' + p[0] + '">' + esc(p[1]) + '</a></li>'; }).join("") +
-            '<li><a href="products.html">All products</a></li>' +
+            '<li><a href="product-directory.html">Full product directory</a></li>' +
           '</ul></div>' +
           '<div class="footer-col"><h4>Capabilities</h4><ul>' +
             '<li><a href="manufacturing.html">Manufacturing</a></li>' +
