@@ -260,11 +260,37 @@
     });
   }
 
+  /* --------------------------------------------------- config-driven fields
+
+     Any element marked data-caslumi="email" or data-caslumi="phone" is filled
+     from config.js. The markup in the page is the fallback shown when JS is
+     unavailable, so keep it in step when you change config.js.
+     -------------------------------------------------------------------- */
+
+  function fillContactFields() {
+    var link = 'color:var(--ember);font-weight:600';
+
+    var mail = document.querySelectorAll('[data-caslumi="email"]');
+    for (var i = 0; i < mail.length; i++) {
+      mail[i].innerHTML = CFG.email
+        ? '<a href="mailto:' + esc(CFG.email) + '" style="' + link + '">' + esc(CFG.emailLabel || CFG.email) + '</a>'
+        : "Available on request";
+    }
+
+    var tel = document.querySelectorAll('[data-caslumi="phone"]');
+    for (var j = 0; j < tel.length; j++) {
+      tel[j].innerHTML = CFG.phone
+        ? '<a href="tel:' + esc(CFG.phone.replace(/[^\d+]/g, "")) + '" style="' + link + '">' + esc(CFG.phone) + '</a>'
+        : "Publishing shortly, with the U.S. entity registration";
+    }
+  }
+
   /* ------------------------------------------------------------------- boot */
 
   function init() {
     buildHeader();
     buildFooter();
+    fillContactFields();
     wireReveal();
     wireForm();
   }

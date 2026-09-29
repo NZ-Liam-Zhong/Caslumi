@@ -42,8 +42,11 @@
           <h3 class="h-md">Get in touch</h3>
           <table class="specs mt-24">
             <tbody>
-              <tr><th scope="row">Email</th><td><a href="mailto:jh5151@columbia.edu" style="color:var(--ember);font-weight:600">jh5151@columbia.edu</a></td></tr>
-              <tr><th scope="row">U.S. phone</th><td><a href="tel:+13323739561" style="color:var(--ember);font-weight:600">+1 (332) 373-9561</a></td></tr>
+              <!-- These two cells are filled from assets/js/config.js so the contact
+                   details can never drift out of step with the header and footer.
+                   The markup below is the no-JS fallback. -->
+              <tr><th scope="row">Email</th><td data-caslumi="email"><a href="mailto:karissagakki1105@gmail.com" style="color:var(--ember);font-weight:600">karissagakki1105@gmail.com</a></td></tr>
+              <tr><th scope="row">U.S. phone</th><td data-caslumi="phone"><a href="tel:+13323739561" style="color:var(--ember);font-weight:600">+1 (332) 373-9561</a></td></tr>
               <tr><th scope="row">WhatsApp</th><td>Available on request</td></tr>
               <tr><th scope="row">WeChat</th><td>Available on request</td></tr>
               <tr><th scope="row">Response time</th><td>Within one business day</td></tr>

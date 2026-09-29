@@ -19,8 +19,8 @@ window.CASLUMI = {
      or academic address as a smaller operation than you actually are.
      Empty fields below are omitted from the site rather than faked.
      ---------------------------------------------------------------------- */
-  email: "jh5151@columbia.edu",
-  emailLabel: "jh5151@columbia.edu",
+  email: "karissagakki1105@gmail.com",
+  emailLabel: "karissagakki1105@gmail.com",
   phone: "+1 (332) 373-9561",
   whatsapp: "",         // digits only, e.g. "8613800000000"
   wechat: "",           // WeChat ID
