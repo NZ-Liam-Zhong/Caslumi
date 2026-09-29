@@ -98,10 +98,16 @@ repository for `TODO` to find each one in context.
 
 - **U.S. entity details** — company name, office address, phone number
   (`about.html`, `contact.html`, `config.js`).
-- **Certifications** — `quality.html` and `product-fire-pit-tables.html` describe
-  the inspection process and the compliance conversation, but list no specific
-  certificates. Only add certifications the plants can produce a current
-  certificate for.
+- **Certificate numbers and expiry dates** — `quality.html` now lists the CSA
+  Certificate of Qualification (valid to 24 January 2027), the CSA Certificate of
+  Compliance, the Kiwa EU type-examination certificate, AGA certification and ISO
+  9001:2015, and `product-directory.html` lists the CSA burner certificate numbers.
+  Those numbers were transcribed from the catalogue and from the CSA certificate
+  itself — check every one against the paper document before launch, fill in the
+  entries marked "On request", and re-check the CSA qualification in January 2027.
+- **Collection names** — `product-directory.html` proposes seven Caslumi collection
+  names (Emberline, Teakform, Sintera, Castone, Polyform, Firecore, Galley). Run a
+  USPTO and EUIPO trademark search on each before using them commercially.
 - **Case studies** — `projects.html` currently carries three representative,
   anonymised programmes. Replace them with real named projects once customers
   have given written permission, and do not publish any customer logo without it.

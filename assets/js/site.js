@@ -150,8 +150,8 @@
     contact.push('<li>' + (CFG.phone ? '<a href="tel:' + esc(CFG.phone.replace(/[^\d+]/g, "")) + '">' + esc(CFG.phone) + '</a>' : 'U.S. phone — coming soon') + '</li>');
     if (CFG.whatsapp) contact.push('<li><a href="https://wa.me/' + esc(CFG.whatsapp) + '" rel="noopener">WhatsApp</a></li>');
     if (CFG.wechat) contact.push('<li>WeChat: ' + esc(CFG.wechat) + '</li>');
-    contact.push('<li>Jiangmen, Guangdong, China</li>');
-    contact.push('<li>Phnom Penh area, Cambodia</li>');
+    contact.push('<li>Guangdong Province, China</li>');
+    contact.push('<li>Cambodia</li>');
 
     host.className = "site-footer";
     host.innerHTML =
