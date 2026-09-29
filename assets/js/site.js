@@ -151,7 +151,7 @@
     if (CFG.whatsapp) contact.push('<li><a href="https://wa.me/' + esc(CFG.whatsapp) + '" rel="noopener">WhatsApp</a></li>');
     if (CFG.wechat) contact.push('<li>WeChat: ' + esc(CFG.wechat) + '</li>');
     contact.push('<li>Guangdong Province, China</li>');
-    contact.push('<li>Cambodia</li>');
+    contact.push('<li>Svay Rieng Province, Cambodia</li>');
 
     host.className = "site-footer";
     host.innerHTML =

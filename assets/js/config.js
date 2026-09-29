@@ -21,10 +21,15 @@ window.CASLUMI = {
      ---------------------------------------------------------------------- */
   email: "jh5151@columbia.edu",
   emailLabel: "jh5151@columbia.edu",
-  phone: "",            // e.g. "+1 (704) 555-0142"
+  phone: "+1 (332) 373-9561",
   whatsapp: "",         // digits only, e.g. "8613800000000"
   wechat: "",           // WeChat ID
   usAddress: "",        // U.S. office address, once registered
+
+  /* ---- Cambodia operation ----
+     Registered entity and plant address of the Cambodian manufacturing site. */
+  cambodiaEntity: "Baiming Camis Furniture (Cambodia) Co., Ltd.",
+  cambodiaAddress: "Fengfu International SEZ, Prey Sakum Village, Prey Thom Commune, Kompong Rou District, Svay Rieng Province, Cambodia",
 
   /* ---- RFQ form ----------------------------------------------------------
      A static site cannot send email on its own. Pick one provider, paste the
