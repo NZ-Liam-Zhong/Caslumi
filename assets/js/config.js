@@ -11,12 +11,17 @@ window.CASLUMI = {
   tagline: "Aluminum Manufacturing Network",
 
   /* ---- contact -----------------------------------------------------------
-     Changing `email` here updates the header, the footer, the contact page
-     fallback and the RFQ mailto fallback in one go.
+     These two fields are the single source of truth. Changing them here updates
+     the header bar, the footer, the contact page, the About page and the RFQ
+     mailto fallback on every page at once.
+
+     The one place that is NOT driven from here is the Organization structured
+     data at the top of index.html, which search engines and AI answer engines
+     read. If you change the email or phone, change it there too.
 
      TODO: once the company domain and the U.S. entity are live, switch this to
-     a business address on your own domain. U.S. buyers tend to read a personal
-     or academic address as a smaller operation than you actually are.
+     a business address on your own domain. U.S. buyers tend to read a free
+     mailbox as a smaller operation than you actually are.
      Empty fields below are omitted from the site rather than faked.
      ---------------------------------------------------------------------- */
   email: "karissagakki1105@gmail.com",

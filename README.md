@@ -54,6 +54,7 @@ MX, SPF and DKIM records so company email keeps working.
 | What you want to change | Where |
 | --- | --- |
 | Email, phone, WhatsApp, WeChat, U.S. address | `assets/js/config.js` |
+| Email and phone in search-engine structured data | `index.html` (the `application/ld+json` block) |
 | RFQ form provider and key | `assets/js/config.js` |
 | Navigation menu, footer links | `assets/js/site.js` (top of the file) |
 | Colours, spacing, typography | `assets/css/style.css` (`:root`) |
@@ -96,8 +97,9 @@ provider — check the current plan limits before relying on it.
 These are deliberately left as placeholders rather than invented. Search the
 repository for `TODO` to find each one in context.
 
-- **U.S. entity details** — company name, office address, phone number
-  (`about.html`, `contact.html`, `config.js`).
+- **U.S. entity details** — registered company name and office address
+  (`about.html`, `contact.html`, `config.js`). The U.S. phone and the contact
+  email are live.
 - **Certificate numbers and expiry dates** — `quality.html` now lists the CSA
   Certificate of Qualification (valid to 24 January 2027), the CSA Certificate of
   Compliance, the Kiwa EU type-examination certificate, AGA certification and ISO
